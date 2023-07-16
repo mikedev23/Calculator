@@ -7,7 +7,6 @@ body {
 }
 
 body {
-  background-image: linear-gradient(to bottom, #84a7ff, #c1e4ff);
   color: #ffffff;
   font-family: Arial, sans-serif;
   background-image: url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80');
@@ -75,11 +74,14 @@ body {
 }
 
 .footer {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  color: #ccc;
+  position: relative;
+  top: 12px;
+  bottom: 5px;
+  right: 5px;
+  left: 150px;
+  color: #ddd;
   font-size: 12px;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
